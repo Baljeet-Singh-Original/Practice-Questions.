@@ -1,0 +1,10 @@
+
+arr = [5,4,3,56,3,4,3,6,56,9]
+i=0
+for i in range(i,len(arr)-1):
+    j=i+1
+    for j in range(j+1,len(arr)-1):
+        if arr[i] == arr[j]:
+            print(arr[j])
+            arr.pop(j)
+print(arr)
