@@ -59,4 +59,3 @@ for i in arr1:
 print(arr2)
  
  
-.
